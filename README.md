@@ -15,9 +15,12 @@ First, you need to make sure that our package is included in your `tsconfig.json
 ```json
 "include": [
   "./lib/**/*.ts", 
-  "./node_modules/bn.js-typings/index.d.ts"
+  "./node_modules/bn.js/index.d.ts"
 ]
 ```
+
+Copy to index.d.ts to under node_moduls (./node_modules/bn.js/)
+
 
 Then use it simply like this:
 
